@@ -104,6 +104,7 @@ const SignupScreen = ({ history }) => {
               type="file"
               name="image"
               id="validatedCustomFile"
+              accept=".jpg, .jpeg, .png"
               {...register("image", {
                 required: true,
               })}
