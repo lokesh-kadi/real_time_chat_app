@@ -34,5 +34,6 @@ Chat Room: Users can communicate with each other in real-time.
 Message Storage: Stores the last 50 messages per room in SQLite.
 Chat History: Displays stored chat history for easy access.
 
-Assumptions : i assumed at starting of project there will be no users 
+Assumptions : i assumed at starting of project there will be no users
+i assume both frontend and backend are up and running
 ```
