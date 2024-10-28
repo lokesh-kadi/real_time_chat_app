@@ -1,5 +1,5 @@
 # real_time_chat_app
-a simple real time chat application using Django for backend and react for frontend
+a simple real time chat application using Django for backend and react for frontend and sqlite3 as data base
 
 # Installation Process
 To install this app please follow this below steps:
@@ -19,3 +19,18 @@ To install this app please follow this below steps:
 ```
 
 Now you'll be redirected to `localhost:3000` Then open two browser window and do the signup with name, email, profile image and start chatting from two different window. 
+
+
+### High level features view
+```
+Login Process: Checks if the user exists; if not, prompts sign-up.
+Home Page:
+Profile: Enables self-chat.
+Chat Contacts: Users interact with contacts.
+Add Users Logic:
+Check in SQLite: Finds users who exist in SQLite but aren’t in the user’s contact list and adds them to the "Add Users" tab.
+Messaging System:
+Chat Room: Users can communicate with each other in real-time.
+Message Storage: Stores the last 50 messages per room in SQLite.
+Chat History: Displays stored chat history for easy access.
+```
